@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.AnagramasUtilTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-05-23T21:36:45.387Z" hostname="DESKTOP-HK6OG8P" time="0.105">
+  <properties/>
+  <testcase name="testValidaEntradaComVazia()" classname="test.AnagramasUtilTest" time="0.06"/>
+  <testcase name="testValidaEntradaComMenosDeTres()" classname="test.AnagramasUtilTest" time="0.003"/>
+  <testcase name="testValidaEntradaMultiplaComCaracterInvalido()" classname="test.AnagramasUtilTest" time="0.003"/>
+  <testcase name="testValidaEntradaCorreta()" classname="test.AnagramasUtilTest" time="0.017"/>
+  <testcase name="testValidaEntradaMultiplaComEspacos()" classname="test.AnagramasUtilTest" time="0.002"/>
+  <testcase name="testGerarAnagramasSimples()" classname="test.AnagramasUtilTest" time="0.003"/>
+  <system-out><![CDATA[Anagramas gerados: cba, cab, bca, bac, acb, abc
+]]></system-out>
+  <system-err><![CDATA[mai. 23, 2025 6:36:45 PM util.Validate validaEntrada
+INFO: Você deve fornecer pelo menos 3 letras distintas.
+mai. 23, 2025 6:36:45 PM util.Validate validaEntrada
+INFO: Você deve fornecer pelo menos 3 letras distintas.
+mai. 23, 2025 6:36:45 PM util.Validate validateEntradaMultiple
+WARNING: Caractere inválido ignorado: 1
+]]></system-err>
+</testsuite>
